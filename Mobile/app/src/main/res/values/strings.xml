@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pomodoro Timer ux</string>
+    <string name="title_home">Recordatorios</string>
+    <string name="title_dashboard">Timer</string>
+    <string name="title_notifications">Reportes</string>
+    <string name="title_edit_timer">Editar Timer</string>
+    <string name="title_edit_focus">Editar Focus</string>
+    <string name ="timer">25:00</string>
+    <string name ="timer_title">Tiempo de Trabajo</string>
+    <string name ="record1">1. Journey Map</string>
+    <string name ="record2">2. Parcial de Aplicaciones Nativas</string>
+    <string name ="record3">3. Wireframes UX</string>
+    <string name ="record4">4. Video UX</string>
+    <string name ="status">Status</string>
+    <string name ="Completados">Completados</string>
+    <string name ="tfaltantes">Tareas Faltantes</string>
+    <string name ="focusMode">Focus Mode</string>
+    <string name ="focusMode1">No Molestar</string>
+    <string name ="focusMode2">Concentración</string>
+    <string name ="focusMode3">Estudio</string>
+    <string name ="focustime">Focus Time</string>
+    <string name ="breaktime">Break Time</string>
+
+
+</resources>

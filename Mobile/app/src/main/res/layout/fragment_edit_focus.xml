@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26587B7F"
+    tools:context=".ui.dashboard.EditFocus">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="52dp"
+        android:background="#66587B7F"
+        android:text="@string/focusMode"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_edit_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="64dp"
+        android:background="#6EE1BB80"
+        android:gravity="center"
+        android:text="@string/focusMode1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="40dp"
+        android:background="#6EE1BB80"
+        android:gravity="center"
+        android:text="@string/focusMode2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="212dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        android:background="#6EE1BB80"
+        android:gravity="center"
+        android:text="@string/focusMode3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/png_transparent_computer_icons_moon_iphone_crescent_moon_logo_computer_wallpaper_monochrome_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/estudie_el_icono_del_vector_aislado_en_fondo_transparente_tra_estudio_127332333_removebg_preview_11_31_04_am" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="44dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="155dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/kisspng_logo_portable_network_graphics_image_calligraphy_m_pure_giving_meditation_fundraiser_hermind_5cfae2de3d3da7_9678172615599459502509_removebg_preview" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonAccept1"
+        android:layout_width="104dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="328dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/aceptarsindensity" />
+
+    <ImageButton
+        android:id="@+id/imagebuttondecline1"
+        android:layout_width="104dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="328dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/cerrarsindensity" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
